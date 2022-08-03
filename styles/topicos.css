@@ -2,7 +2,7 @@
   background: var(--azul-degrade);
   text-align: center;
 
-  padding: 1em 0;
+  padding: 3em 1em;
 }
 
 .topicos__titulo {
@@ -37,5 +37,11 @@
 
   .topicos__link {
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 1728px) {
+  .topicos {
+    padding: 3em 30vw;
   }
 }
